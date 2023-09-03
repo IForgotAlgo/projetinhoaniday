@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;1,700&display=swap');
+
+:root {
+    /*Cores Primarias*/
+    --purple:hsl(259, 100%, 65%);
+    --Light-red:hsl(0, 100%, 67%);
+ 
+    /*Cores Neutras*/
+    --White:hsl(0, 0%, 100%);
+    --Off-white:hsl(0, 0%, 94%);
+    --Light-grey:hsl(0, 0%, 86%);
+    --Smokey-grey:hsl(0, 1%, 44%);
+    --Off-black:hsl(0, 0%, 8%);
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin: 0;
+
+    font-family: 'Poppins', sans-serif;
+
+    background-color: var(--Off-white);
+
+    margin: 25%;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-content: space-evenly;
+    background-color: var(--White);
+
+    justify-content: space-evenly;
+
+    border-radius: 15px;
+    border-bottom-right-radius: 75px;
+    padding: 30px;
+}
+
+.attribution {
+    display: flex;
+    align-content: center;
+}
+
+.linha1 {
+    font-size: 10px;
+}
+
+.linha2 {
+    display: flex;
+    justify-content: flex-start;
+    align-content: center;
+    flex-direction: row;
+}
+.input {
+    display: flex;
+    flex-direction: column;
+    margin-right: 10px;
+
+    color: var(--Smokey-grey);
+
+    font-size: 10px;
+    font-weight: 600;
+    letter-spacing: 4px;
+
+    
+}
+
+.meuinput {
+    display: flex;
+    border-radius: 5px;
+    border-color: var(--Light-grey);
+    border-width: 1px;
+    border-style: solid;
+
+    align-items: center;
+
+    color: var(--Off-black);
+
+    margin-top: 8px;
+    padding: 8px;
+    padding-left: 16px;
+
+    letter-spacing: 0px;
+    font-size: 30px;
+    font-weight: 900;
+
+    width: 100px;
+    height: 44px;
+}
+
+.linha3 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.iu {
+    width: 450px;
+    height: 2px;
+    background-color:var(--Light-grey)
+}
+
+.botaocircular {
+    background-color: var(--purple);
+    border-radius: 100%;
+    padding: 18px;
+    height: 44px;
+}
+
+.roxo {
+    color: var(--purple);
+    padding-right: 0.2ch;
+}
+
+.linhasfinais {
+    display: flex;
+    height: 75px;
+    align-items: center;
+
+    font-size: 75px;
+    font-style: italic;
+    font-weight: 700;
+    color: var(--Off-black);
+}
+
+.attribution {
+    margin-top: 24px;
+}
